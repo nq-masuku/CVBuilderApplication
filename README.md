@@ -35,7 +35,7 @@
         <td><img src="screenshots/Screenshot_17.png" width="160" /></td>
         <td><img src="screenshots/Screenshot_18.png" width="160" /></td>
         <td><img src="screenshots/Screenshot_19.png" width="160" /></td>
-        <td><img src="screenshots/Screenshot_20.png" width="160" /></td>
+      
     </tr>
 </table>
 </p>
