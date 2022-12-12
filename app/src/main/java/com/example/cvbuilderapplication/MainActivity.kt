@@ -1,12 +1,14 @@
 package com.example.cvbuilderapplication
 
 import android.annotation.SuppressLint
+import android.content.Context
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.Toast
+import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.view.menu.MenuBuilder
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
@@ -17,11 +19,13 @@ import com.google.android.material.tabs.TabLayoutMediator
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
-    var logged: Boolean = true
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        //login using sharedPreferences
+        val spf=getSharedPreferences("login", Context.MODE_PRIVATE)
+        val logged= spf.getBoolean("logged", false)
 
         //Still to implement login, logged flag currently set to true
         if(logged){
@@ -51,10 +55,33 @@ class MainActivity : AppCompatActivity() {
         return super.onCreateOptionsMenu(menu)
     }
     override fun onOptionsItemSelected(item: MenuItem):Boolean {
-        Toast.makeText(
-            applicationContext,
-            item.title.toString(),
-            Toast.LENGTH_LONG).show()
+        when(item.itemId){
+            R.id.preferences-> {
+                setCurrentFragment(Preference())
+            }
+            R.id.logout->{
+                val dialog = AlertDialog.Builder(this)
+                dialog.setTitle("Are you sure?")
+                dialog.setMessage("Logout of your CVApp?")
+
+                dialog.setPositiveButton("Yes"){ dialogInterface, which ->
+                    val spf=getSharedPreferences("login", Context.MODE_PRIVATE)
+                    val spe=spf.edit()
+                    spe.putBoolean("logged", false)
+                    spe.apply()
+
+                    val intent = Intent(this, LoginActivity::class.java)
+                    startActivity(intent)
+                }
+                dialog.setNegativeButton("Cancel"){ dialogInterface, which ->
+                    dialogInterface.dismiss()
+                }
+
+                val builder : AlertDialog = dialog.create()
+                builder.show()
+
+            }
+        }
         return super.onOptionsItemSelected(item)
     }
 

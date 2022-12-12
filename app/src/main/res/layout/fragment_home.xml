@@ -49,7 +49,7 @@
                 android:layout_marginLeft="2dp"
                 android:textColor="@color/mater_grey_700"
                 android:fontFamily="sans-serif-black"
-                android:text="Career Note"
+                android:text="Professional summary"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 

@@ -63,15 +63,15 @@ class ContactFragment : Fragment() {
     }
 
     fun linkedin() {
-        val uri = Uri.parse(getString(R.string.my_linkedin))
-        val it = Intent(Intent.ACTION_VIEW,uri);
-        startActivity(it);
+        val intent= Intent(context,WebView::class.java)
+        intent.putExtra("url","linkedin")
+        startActivity(intent)
     }
 
     fun github() {
-        val uri = Uri.parse(getString(R.string.my_github));
-        val it = Intent(Intent.ACTION_VIEW,uri);
-        startActivity(it);
+        val intent= Intent(context,WebView::class.java)
+        intent.putExtra("url","github")
+        startActivity(intent)
     }
     fun getPdf() {
         Toast.makeText(activity, "PDF couldn't open",Toast.LENGTH_LONG).show()
@@ -80,10 +80,8 @@ class ContactFragment : Fragment() {
     }
 
     fun location(){
-        var loc = getString(R.string.mylocation)
-        val addressUri = Uri.parse("geo:0,0?q=$loc");
-
-        val intent = Intent(Intent.ACTION_VIEW, addressUri)
+        val intent= Intent(context,WebView::class.java)
+        intent.putExtra("url","location")
         startActivity(intent)
     }
 

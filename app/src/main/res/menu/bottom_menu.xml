@@ -10,9 +10,9 @@
       />
 
     <item
-        android:id="@+id/contact"
+        android:id="@+id/about"
         android:title=""
-        android:icon="@drawable/contact_icon"
+        android:icon="@drawable/about_icon"
         />
 
     <item
@@ -22,9 +22,9 @@
        />
 
     <item
-        android:id="@+id/about"
+        android:id="@+id/contact"
         android:title=""
-        android:icon="@drawable/about_icon"
+        android:icon="@drawable/contact_icon"
         />
 
 </menu>

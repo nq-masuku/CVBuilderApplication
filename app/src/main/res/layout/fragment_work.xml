@@ -177,6 +177,18 @@
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
+            <ImageView
+                android:id="@+id/imageView7"
+                android:clickable="true"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="bottom|end"
+                android:layout_marginEnd="@dimen/fab_margin"
+                android:layout_marginBottom="16dp"
+                android:layout_marginTop="100dp"
+                android:src="@drawable/linked_in" />
+
+
         </LinearLayout>
     </ScrollView>
 

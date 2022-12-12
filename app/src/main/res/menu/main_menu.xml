@@ -9,9 +9,17 @@
         app:showAsAction="always|withText"/>-->
 
     <item
-        android:id="@+id/m2"
-        android:title="LOGOUT"
-        app:showAsAction="never|withText"/>
+        android:id="@+id/preferences"
+        android:title="@string/preference1"
+        android:icon="@drawable/ic_baseline_toggle_on_24"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/logout"
+        android:title="@string/logout"
+        android:icon="@drawable/ic_baseline_logout_24"
+        app:showAsAction="never"
+        />
 
 
 </menu>

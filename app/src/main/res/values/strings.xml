@@ -1,9 +1,9 @@
 <resources>
     <string name="app_name">MY CV</string>
-    <string name="career_note">Experienced full-stack Java/Kotlin\ndeveloper with 4+ years of hands-on experience on enterprise software development and legacy code modernization. Skilled in full stack solutions development and complete SDLC phases.</string>
+    <string name="career_note">Experienced full-stack Java/Kotlin\ndeveloper with 4 years of hands-on experience on enterprise software development and legacy code modernization. Skilled in full stack solutions development and complete SDLC phases.</string>
     <string name="experience"><b>Languages:</b>  Java 8, Kotlin\n<b>Web:</b>  HTML, CSS, JavaScript, JSP, Typescript, jQuery\n<b>Web Services:</b>  Rest and SOAP\n<b>Frameworks:</b>  Spring boot, Angular 6+, Mockito, Hibernate\n<b>Databases:</b>  MySQL, MongoDB, Oracle DB\n<b>Design Patterns:</b>  Observer, Singleton, State, Decorator, Command, Façade, Composite, and Factory\n<b>Tools:</b>  Maven, Jenkins, Postman, Git, IntelliJ, Eclipse, DBeaver, Studio3t, SoapUI, Jira, Bitbucket, Kafka, StarUML\n
 </string>
-    <string name="about">A driven software development professional with 4+ years of hands-on experience working in agile teams and across different projects ranging in size and complexity. Skilled in a variety of languages and technologies such as Java, Kotlin, Angular 6+, Spring framework, OOP, Design patterns, Oracle SQL and MongoDB. Holding BCom Hons, BSc in Computer Science and Information Technology, and currently pursuing a MSCS.</string>
+    <string name="about">Solutions-driven and inventive Java full stack developer with 4 years of diverse experience in developing organizational/client effectual applications, mainly Microservices. Skilled in technologies like Java 8+, Kotlin, Spring, Angular 6+, Design patterns, Oracle, MySQL and MongoDB. Holding a BSc &amp; BCom Hons in Computer Science and Information Technology, currently pursuing a MSCS.</string>
     <string name="maharishi">Maharishi International University</string>
     <string name="ukzn">University of KwaZulu-Natal</string>
     <string name="mfield">Master of Science in Computer Science</string>
@@ -15,14 +15,14 @@
     <string name="mmdesc">Operated diverse verticals of system integration among various policy tracking and management systems.</string>
     <string name="tcs">Tata Consultancy Services</string>
     <string name="tcsfield">Java Software developer\nCape Town, South Africa • 2019 - 2021</string>
-    <string name="tcsdesc">Enabled transition of complex legacy codebase to Java micro-services and acquired insights into systems integration through attention to detail.</string>
+    <string name="tcsdesc">Enabled transition of complex legacy codebase to Java micro-services.</string>
     <string name="tcsfield2">Associate Developer\nKochi, India • 2018 - 2019</string>
     <string name="tcsdesc2">Gained knowledge and exposure in collaboration with accomplished developers on major projects. Supported team in evaluation and documentation of current software glitches.</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="number">641-110-0000</string>
     <string name="numberl">Phone</string>
-    <string name="email">nmasuku999@gmail.com</string>
+    <string name="email">masukunqoba9@gmail.com</string>
     <string name="emaill">Email</string>
     <string name="linkedin">Nqobane Masuku</string>
     <string name="linkedinl">Linkedin</string>
@@ -31,7 +31,7 @@
     <string name="pdf">PDF</string>
     <string name="pdfl">Resume</string>
 
-    <string name="my_linkedin">http://www.linkedin.com/in/masuku/</string>
+    <string name="my_linkedin">https://www.linkedin.com/in/masuku/</string>
     <string name="my_github">http://github.com/nq-masuku/</string>
     <string name="my_email">nmasuku999@gmail.com</string>
     <string name="email_subject">New work</string>
@@ -43,13 +43,35 @@
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>
-    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in">Sign in</string>
     <string name="action_sign_in_short">Sign in</string>
     <string name="welcome">"Welcome!"</string>
     <string name="invalid_username">Not a valid username</string>
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
     <string name="title_activity_login">Welcome, Login</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="personName">First Name</string>
+    <string name="lastName">Last Name</string>
+    <string name="action_signup">REGISTER</string>
+    <string name="logout">logout</string>
+    <string name="preference1">preferences</string>
+    <string name="login_title"><b>Sign in to your account</b></string>
+    <string name="register_title"><b>Create new user</b></string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="titles">Full-stack Developer · Java Software Engineer · Android Developer</string>
+    <string name="wplaces">On-site · Hybrid · Remote</string>
+    <string name="jlocations">United States · Michigan, Chicago, Texas, Des Moines</string>
+    <string name="jtypes">Full-time · Contract</string>
+    <string name="jlocations2">United States · Anywhere</string>
 
 
 </resources>
