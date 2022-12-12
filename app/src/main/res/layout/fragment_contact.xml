@@ -113,7 +113,7 @@
                     android:id="@+id/txtv22"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="-208dp"
+                    android:layout_marginStart="-225dp"
                     android:layout_marginTop="30dp"
                     android:text="@string/emaill" />
 
